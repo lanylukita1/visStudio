@@ -1,0 +1,20 @@
+<template name="campaign">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	{{> dashboard_layouts}}
+
+
+	<div class="row">
+		<div class="col s12 m12 l5 center-align">
+   			<input type="text" name="search" style="width: 300px; margin-top: 50px;">
+			<a class="btn-floating btn-medium waves-effect waves-light button-color" title="Search">
+				<i class="material-icons">search</i>
+			</a>
+			<div class="hide-on-large-only" style="margin-top: -15px; font-size: 20px;">
+				<label>New Campaign</label>
+			</div>	
+      </div>
+
+      {{> form_campaign}}
+
+    </div>
+</template>

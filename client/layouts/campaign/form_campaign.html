@@ -1,0 +1,80 @@
+<template name="form_campaign">
+	<div class="col s12 m12 l7"> 
+			<nav>
+				<p class="p-nav">Create or Edit</p>
+				<div class="switch right" style="margin-top: -85px; margin-right: 10px">
+    				<label style="color: white;">Off<input type="checkbox">
+  						<span class="lever"></span>On
+    				</label>
+  				</div>
+			</nav>
+			<label class="lab-font">Name :</label>
+			<input type="text" name="name">
+
+			<div class="row">
+			<div class="col s8 m10 l10">
+				<label class="lab-font">Schedule:</label>
+    		<select class="browser-default">
+      			<option value="" disabled selected>Choose your option</option>
+      			<option value="1">Option 1</option>
+      			<option value="2">Option 2</option>
+      			<option value="3">Option 3</option>
+    		</select>
+			</div>
+			<div class="col s2 m1 l1">
+				<h3>or</h3>
+			</div>
+			<div class="col s2 m1 l1">
+				<a class="btn-floating btn-medium waves-effect waves-light button-color" title="New Schedule" style="margin-top: 25px;">
+   				<i class="material-icons">add</i>
+   			</a>
+			</div>
+			</div>
+
+			<input class="with-gap" name="group1" type="radio" id="player" style="position: center;" />
+      			<label for="player">Single Player</label>
+      		<input class="with-gap" name="group1" type="radio" id="group"  />
+      			<label for="group">Group</label>
+      			<br>
+      			<br>
+      		
+      		<div class="row">
+			<div class="col s8 m10 l10">
+				<label class="lab-font">Player:</label>
+    		<select class="browser-default">
+      			<option value="" disabled selected>Choose your option</option>
+      			<option value="1">Player 1</option>
+      			<option value="2">Player 2</option>
+      			<option value="3">Player 3</option>
+    		</select>
+			</div>
+			<div class="col s2 m1 l1">
+				<h3>or</h3>
+			</div>
+			<div class="col s2 m1 l1">
+				<a class="btn-floating btn-medium waves-effect waves-light button-color" title="New Player" style="margin-top: 25px;">
+   				<i class="material-icons">add</i>
+   			</a>
+			</div>
+			</div>
+
+			<div class="row">
+				<div class="col s6 m6 l6">
+					<label class="lab-font">Start :</label>
+				<input type="text" class="datepicker" name="start">
+				</div>
+				<div class="col s6 m6 l6">
+					<label class="lab-font">Stop :</label>
+				<input type="text" class="datepicker" name="stop">
+				</div>
+			</div>
+  			
+  			<a class="btn-floating btn-large waves-effect waves-light button-color" title="Back" style="position: center; margin: auto;">
+   				<i class="material-icons">arrow_back</i>
+   			</a>
+   			<a class="btn-floating btn-large waves-effect waves-light button-color right" title="Save">
+   				<i class="material-icons">check</i>
+   			</a>
+
+      </div>
+</template>
